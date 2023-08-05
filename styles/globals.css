@@ -1,0 +1,19 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.mainBox{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  /* border: 2px solid black; */
+  margin: 2px;
+  padding: 10px;
+}
+.boxdiv{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
